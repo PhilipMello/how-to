@@ -28,15 +28,15 @@ Don't exist H7
 ```
 ###### Title H7 - Don't exist
 ```
-Another type o Title H1
+Another type of Title H1
 =
 ```
-Another type o Title H1
+Another type of Title H1
 =
 ```
-Another type o Title H2
+Another type of Title H2
 -
 ```
-Another type o Title H2
+Another type of Title H2
 -
 ```
