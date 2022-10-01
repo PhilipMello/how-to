@@ -40,3 +40,12 @@ Another type of Title H2
 Another type of Title H2
 -
 ```
+---
+_ITALIC_
+```
+_ITALIC_
+```
+**BOLD**
+```
+**BOLD**
+```
