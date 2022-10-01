@@ -149,3 +149,14 @@ __BOLD__
 ![GitHub](github-original.svg "GitHub Logo")
 ```
 
+### External Images no Title
+![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg)
+```
+![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg)
+```
+
+### External Images with Title
+![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg "GitHub Logo")
+```
+![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg "GitHub Logo")
+```
