@@ -121,3 +121,16 @@ __BOLD__
   * Macbook
   * iMac
 ```
+### ORDENED LIST
+1. Apple
+  1. iPhone
+  1. iPad
+  1. Macbook
+  1. iMac
+```
+1. Apple
+  1. iPhone
+  1. iPad
+  1. Macbook
+  1. iMac
+```
