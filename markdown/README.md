@@ -45,7 +45,15 @@ _ITALIC_
 ```
 _ITALIC_
 ```
+Another type of *ITALIC*
+```
+*ITALIC*
+```
 **BOLD**
 ```
 **BOLD**
+```
+Another type of __BOLD__
+```
+__BOLD__
 ```
