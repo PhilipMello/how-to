@@ -92,3 +92,32 @@ __BOLD__
 > QUOTE LINE 1
 > QUOTE LINE 3
 ```
+---
+# LISTS
+
+### UNORDERED LIST
+- Apple
+  - iPhone
+  - iPad
+  - Macbook
+  - iMac
+```
+- Apple
+  - iPhone
+  - iPad
+  - Macbook
+  - iMac
+```
+### ANOTHER MODE FOR UNORDERED LIST
+* Apple
+  * iPhone
+  * iPad
+  * Macbook
+  * iMac
+```
+* Apple
+  * iPhone
+  * iPad
+  * Macbook
+  * iMac
+```
