@@ -70,3 +70,8 @@ __BOLD__
 ```
 [How-To](https://github.com/PhilipMello/how-to "How-To (HTML, CSS, MarkDown, PHP, JS, Java, Python)")
 ```
+### Simple URL Link
+<https://github.com/PhilipMello/how-to>
+```
+<https://github.com/PhilipMello/how-to>
+```
