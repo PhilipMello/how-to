@@ -60,7 +60,13 @@ __BOLD__
 ---
 # LINKS
 
+### Text with URL Link
 [How-To](https://github.com/PhilipMello/how-to)
 ```
 [How-To](https://github.com/PhilipMello/how-to)
+```
+### Text with URL Link + Title
+[How-To](https://github.com/PhilipMello/how-to "How-To (HTML, CSS, MarkDown, PHP, JS, Java, Python)")
+```
+[How-To](https://github.com/PhilipMello/how-to "How-To (HTML, CSS, MarkDown, PHP, JS, Java, Python)")
 ```
