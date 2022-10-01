@@ -134,3 +134,18 @@ __BOLD__
   1. Macbook
   1. iMac
 ```
+----
+# IMAGES
+
+### Local Images no Title
+![GitHub](github-original.svg)
+```
+![GitHub](github-original.svg)
+```
+
+### Local Images with Title
+![GitHub](github-original.svg "GitHub Logo")
+```
+![GitHub](github-original.svg "GitHub Logo")
+```
+
