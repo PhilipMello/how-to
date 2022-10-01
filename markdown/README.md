@@ -160,3 +160,23 @@ __BOLD__
 ```
 ![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg "GitHub Logo")
 ```
+
+# TABLES
+
+### 2 Column
+
+| Products | Price |
+|----------|-------|
+|iPhone    |$199.00  |
+|iPad      |$399.00  |
+|MacBook   |$999.00  |
+|iMac      |$1.399,00|
+
+```
+| Products | Price |
+|----------|-------|
+|iPhone    |$199.00  |
+|iPad      |$399.00  |
+|MacBook   |$999.00  |
+|iMac      |$1.399,00|
+```
