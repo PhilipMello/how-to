@@ -75,3 +75,20 @@ __BOLD__
 ```
 <https://github.com/PhilipMello/how-to>
 ```
+---
+# QUOTES
+
+### ONE LINE QUOTE
+> QUOTE
+```
+> QUOTE
+```
+# MULTILINE QUOTE
+> QUOTE LINE 1
+> QUOTE LINE 1
+> QUOTE LINE 3
+```
+> QUOTE LINE 1
+> QUOTE LINE 1
+> QUOTE LINE 3
+```
