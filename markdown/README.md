@@ -57,3 +57,10 @@ Another type of __BOLD__
 ```
 __BOLD__
 ```
+---
+# LINKS
+
+[How-To](https://github.com/PhilipMello/how-to)
+```
+[How-To](https://github.com/PhilipMello/how-to)
+```
