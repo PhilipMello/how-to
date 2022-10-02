@@ -242,7 +242,9 @@ __BOLD__
 <h2>CODE HTML</h2>
 <h3>CODE HTML</h3>
 <h4>CODE HTML</h4>
+```
 
+```
 ```html
 <h1>CODE HTML</h1>
 <h2>CODE HTML</h2>
