@@ -321,3 +321,17 @@ System.out.print("Hello World");
 - [ ] Rest
 - [ ] Play game
 ```
+
+---
+
+# Variables
+
+[github_logo]: github-logo.png
+
+![Variable Image][github_logo]
+
+```
+[github_logo]: github-logo.png
+
+![Variable Image][github_logo]
+```
