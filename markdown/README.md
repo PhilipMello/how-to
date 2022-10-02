@@ -163,7 +163,7 @@ __BOLD__
 
 # TABLES
 
-### 2 Column
+### 2 Column - Default left alignment
 
 | Products | Price |
 |----------|-------|
@@ -175,6 +175,42 @@ __BOLD__
 ```
 | Products | Price |
 |----------|-------|
+|iPhone    |$199.00  |
+|iPad      |$399.00  |
+|MacBook   |$999.00  |
+|iMac      |$1.399,00|
+```
+
+### 2 Column - Right alignment
+
+| Products | Price |
+|---------:|-------:
+|iPhone    |$199.00  |
+|iPad      |$399.00  |
+|MacBook   |$999.00  |
+|iMac      |$1.399,00|
+
+```
+| Products | Price |
+|---------:|-------:
+|iPhone    |$199.00  |
+|iPad      |$399.00  |
+|MacBook   |$999.00  |
+|iMac      |$1.399,00|
+```
+
+### 2 Column - Center alignment
+
+| Products | Price |
+:---------:|:------:
+|iPhone    |$199.00  |
+|iPad      |$399.00  |
+|MacBook   |$999.00  |
+|iMac      |$1.399,00|
+
+```
+| Products | Price |
+:---------:|:------:
 |iPhone    |$199.00  |
 |iPad      |$399.00  |
 |MacBook   |$999.00  |
