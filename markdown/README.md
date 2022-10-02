@@ -249,3 +249,32 @@ __BOLD__
 <h3>CODE HTML</h3>
 <h4>CODE HTML</h4>
 ```
+
+### CSS
+
+```css
+<style>
+.btn {
+  background-color: Blue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+</style>
+```
+
+```
+```css
+<style>
+.btn {
+  background-color: Blue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+</style>
+```
