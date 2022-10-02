@@ -156,9 +156,9 @@ __BOLD__
 ```
 
 ### External Images with Title
-![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg "GitHub Logo")
+![GitHub](https://raw.githubusercontent.com/PhilipMello/how-to/main/markdown/github-logo.png "GitHub Logo")
 ```
-![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg "GitHub Logo")
+![GitHub](https://raw.githubusercontent.com/PhilipMello/how-to/main/markdown/github-logo.png "GitHub Logo")
 ```
 
 # TABLES
@@ -222,15 +222,17 @@ __BOLD__
 # CODE TEXT UNFORMATED
 
 ### HTML
-<h1>CODE HTML</h1>
+
 <h2>CODE HTML</h2>
 <h3>CODE HTML</h3>
 <h4>CODE HTML</h4>
+<h5>CODE HTML</h5>
+
 ```
-<h1>CODE HTML</h1>
 <h2>CODE HTML</h2>
 <h3>CODE HTML</h3>
 <h4>CODE HTML</h4>
+<h5>CODE HTML</h5>
 ```
 
 # CODE TEXT FORMATED
