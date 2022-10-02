@@ -138,21 +138,21 @@ __BOLD__
 # IMAGES
 
 ### Local Images no Title
-![GitHub](github-original.svg)
+![GitHub](github-logo.png)
 ```
-![GitHub](github-original.svg)
+![GitHub](github-logo.png)
 ```
 
 ### Local Images with Title
-![GitHub](github-original.svg "GitHub Logo")
+![GitHub](github-logo.png "GitHub Logo")
 ```
-![GitHub](github-original.svg "GitHub Logo")
+![GitHub](github-logo.png "GitHub Logo")
 ```
 
 ### External Images no Title
-![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg)
+![GitHub](https://raw.githubusercontent.com/PhilipMello/how-to/main/markdown/github-logo.png)
 ```
-![GitHub](https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg)
+![GitHub](https://raw.githubusercontent.com/PhilipMello/how-to/main/markdown/github-logo.png)
 ```
 
 ### External Images with Title
