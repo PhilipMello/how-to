@@ -315,6 +315,22 @@ System.out.print("Hello World");
 print("Hello World")
 ```
 
+```
+```python
+print("Hello World")
+```
+
+### JavaScript
+
+```javascript
+alert('Hello World');
+```
+
+```
+```javascript
+alert('Hello World');
+```
+
 ---
 # TO-DO LIST
 - [ ] Got to market
