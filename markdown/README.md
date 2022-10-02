@@ -216,3 +216,36 @@ __BOLD__
 |MacBook   |$999.00  |
 |iMac      |$1.399,00|
 ```
+
+---
+
+# CODE TEXT UNFORMATED
+
+### HTML
+<h1>CODE HTML</h1>
+<h2>CODE HTML</h2>
+<h3>CODE HTML</h3>
+<h4>CODE HTML</h4>
+```
+<h1>CODE HTML</h1>
+<h2>CODE HTML</h2>
+<h3>CODE HTML</h3>
+<h4>CODE HTML</h4>
+```
+
+# CODE TEXT FORMATED
+
+### HTML
+
+```html
+<h1>CODE HTML</h1>
+<h2>CODE HTML</h2>
+<h3>CODE HTML</h3>
+<h4>CODE HTML</h4>
+
+```html
+<h1>CODE HTML</h1>
+<h2>CODE HTML</h2>
+<h3>CODE HTML</h3>
+<h4>CODE HTML</h4>
+```
