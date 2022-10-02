@@ -309,6 +309,12 @@ System.out.print("Hello World");
 System.out.print("Hello World");
 ```
 
+### Python
+
+```python
+print("Hello World")
+```
+
 ---
 # TO-DO LIST
 - [ ] Got to market
