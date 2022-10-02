@@ -280,3 +280,29 @@ __BOLD__
 }
 </style>
 ```
+
+### PHP
+
+```php
+<?php
+echo "Hello World"
+>
+```
+
+```
+```php
+<?php
+echo "Hello World"
+>
+```
+
+### Java
+
+```java
+System.out.print("Hello World");
+```
+
+```
+```java
+System.out.print("Hello World");
+```
