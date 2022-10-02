@@ -337,3 +337,15 @@ System.out.print("Hello World");
 
 ![Variable Image][github_logo]
 ```
+
+### Links in variable
+
+[github_profile]:https://github.com/PhilipMello
+
+[GitHub Profile][github_profile]
+
+```
+[github_profile]:https://github.com/PhilipMello
+
+[GitHub Profile][github_profile]
+```
