@@ -326,6 +326,8 @@ System.out.print("Hello World");
 
 # Variables
 
+### Images in variables
+
 [github_logo]: github-logo.png
 
 ![Variable Image][github_logo]
