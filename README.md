@@ -1,5 +1,7 @@
 # <p align="center">HOW-TO</p>
 
+![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)
+
 ## Git
 
 [How-To Git](https://github.com/PhilipMello/how-to/tree/main/git "Learn Git")
