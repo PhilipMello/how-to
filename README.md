@@ -3,7 +3,9 @@
 ![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)
 
 #### _Read this in [other languages](translations/Translations.md)._
+<kbd>[<img title="Português" alt="Português" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/br.svg" width="22">](translations/README.pt_br.md)</kbd>
 
+---
 ## Git
 
 [How-To Git](https://github.com/PhilipMello/how-to/tree/main/git "Learn Git")
