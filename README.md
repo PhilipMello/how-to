@@ -1,4 +1,4 @@
-# HOW-TO
+# <p align="center">HOW-TO</p>
 
 ## Git
 
