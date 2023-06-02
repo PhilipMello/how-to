@@ -20,6 +20,8 @@ Example: docker pull ubuntu
 
 ```
 docker image ls
+or
+docker images
 ```
 
 ### Remove one or more images
@@ -28,6 +30,11 @@ docker image ls
 docker image rm "name-of-image"
 
 Example: docker image rm ubuntu
+
+or
+docker rmi "name-of-image"
+
+Example: docker rmi ubuntu
 ```
 
 ### Remove unused images (WARNING, THIS COMMAND WILL REMOVE ALL DOCKER IMAGES ON COMPUTER)
