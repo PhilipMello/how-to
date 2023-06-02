@@ -87,6 +87,19 @@ or
 docker ps -all
 ```
 
+### Stop Docker contaienr
+
+```
+docker container stop "id-of-container"
+or
+docker container stop "name-of-container"
+or
+
+docker stop "id-of-container"
+or
+docker stop "name-of-container"
+```
+
 ### Copy files to Docker container
 
 ```
