@@ -1,5 +1,7 @@
 # HOW-TO DOCKER
 
+## Docker Images
+
 ### Login in Docker CLI
 
 ```
@@ -48,5 +50,40 @@ Example: docker push ubuntu
 docker image inspect "name-of-image"
 
 Exemple: docker image inspect ubuntu
+```
 
+### Build Docker image
+
+```
+docker image build "name-of-image"
+
+Example: docker image build ubuntu
+```
+
+## Docker Container
+
+### List all Docker containers running
+
+```
+docker container ps
+or
+docker ps
+```
+
+### List all Docker containers running
+
+```
+docker container ps -a
+or
+docker ps -a
+or
+docker ps -all
+```
+
+### Copy files to Docker container
+
+```
+docker container cp
+
+Example: docker container cp file.txt abcdocker889938:/usr/share
 ```
