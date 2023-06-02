@@ -34,4 +34,19 @@ Example: docker image rm ubuntu
 docker image prune
 ```
 
-### 
+### Upload Docker image to DockerHub
+
+```
+docker push "name-of-image"
+
+Example: docker push ubuntu
+```
+
+### Inspect Docker image
+
+```
+docker image inspect "name-of-image"
+
+Exemple: docker image inspect ubuntu
+
+```
