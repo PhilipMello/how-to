@@ -36,7 +36,7 @@
 
 ### <p align="center">Contributors</p>
 <div align="center">
-  <a href="https://github.com/PhilipMello/Philipmello/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=PhilipMello/Philipmello" />
-</a>
+  <a href="https://github.com/PhilipMello/how-to/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PhilipMello/how-to" />
+  </a>
 </div>
