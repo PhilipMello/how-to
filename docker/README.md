@@ -1,110 +1,114 @@
-# HOW-TO DOCKER
-[Docker Reference documentation](https://docs.docker.com/reference/ "Reference documentation")
+# Como Utilizar o Docker
 
-## Docker Images
+## Referência de Documentação do Docker
 
-### Login in Docker CLI
+[Documentação de Referência do Docker](https://docs.docker.com/reference/ "Documentação de Referência")
 
-```
+## Imagens Docker
+
+### Login no CLI do Docker
+
+```bash
 docker login
-```
 
-### Download Docker images
+Baixar Imagens do Docker
 
-```
-docker pull "name-of-image"
+docker pull "nome-da-imagem"
 
-Example: docker pull ubuntu
-```
+Exemplo: docker pull ubuntu
 
-### Show Docker images
+Exibir Imagens do Docker
 
-```
 docker image ls
-or
+ou
 docker images
-```
 
-### Remove one or more images
+Remover uma ou Mais Imagens
 
-```
-docker image rm "name-of-image"
+docker image rm "nome-da-imagem"
 
-Example: docker image rm ubuntu
+Exemplo: docker image rm ubuntu
 
-or
-docker rmi "name-of-image"
+ou
 
-Example: docker rmi ubuntu
-```
+docker rmi "nome-da-imagem"
 
-### Remove unused images (WARNING, THIS COMMAND WILL REMOVE ALL DOCKER IMAGES ON COMPUTER)
+Exemplo: docker rmi ubuntu
 
-```
+docker image rm "nome-da-imagem"
+
+Exemplo: docker image rm ubuntu
+
+ou
+
+docker rmi "nome-da-imagem"
+
+Exemplo: docker rmi ubuntu
+
+Remover Imagens Não Utilizadas (CUIDADO, ESSE COMANDO IRÁ REMOVER TODAS AS IMAGENS DO DOCKER NO COMPUTADOR)
+
 docker image prune
-```
 
-### Upload Docker image to DockerHub
+Enviar Imagem Docker para o DockerHub
 
-```
-docker push "name-of-image"
+docker push "nome-da-imagem"
 
-Example: docker push ubuntu
-```
+Exemplo: docker push ubuntu
 
-### Inspect Docker image
+Inspecionar Imagem Docker
 
-```
-docker image inspect "name-of-image"
+docker image inspect "nome-da-imagem"
 
-Exemple: docker image inspect ubuntu
-```
+Exemplo: docker image inspect ubuntu
 
-### Build Docker image
+Construir Imagem Docker
 
-```
-docker image build "name-of-image"
+docker image build "nome-da-imagem"
 
-Example: docker image build ubuntu
-```
+Exemplo: docker image build ubuntu
 
-## Docker Container
+docker image build "nome-da-imagem"
 
-### List all Docker containers running
+Exemplo: docker image build ubuntu
 
-```
+Contêiner Docker
+Listar Todos os Contêineres em Execução
+
 docker container ps
-or
+ou
 docker ps
-```
 
-### List all Docker containers running
+Listar Todos os Contêineres
 
-```
 docker container ps -a
-or
+ou
 docker ps -a
-or
-docker ps -all
-```
+ou
+docker ps --all
 
-### Stop Docker contaienr
+Parar um Contêiner Docker
 
-```
-docker container stop "id-of-container"
-or
-docker container stop "name-of-container"
-or
+docker container stop "id-do-contêiner"
+ou
+docker container stop "nome-do-contêiner"
+ou
 
-docker stop "id-of-container"
-or
-docker stop "name-of-container"
-```
+docker stop "id-do-contêiner"
+ou
+docker stop "nome-do-contêiner"
 
-### Copy files to Docker container
+Copiar Arquivos para o Contêiner Docker
 
-```
 docker container cp
 
-Example: docker container cp file.txt abcdocker889938:/usr/share
-```
+Exemplo: docker container cp arquivo.txt abcdocker889938:/usr/share
+
+docker container cp
+
+Exemplo: docker container cp arquivo.txt abcdocker889938:/usr/share
+
+
+Com essa formatação, o GitHub destacará corretamente a sintaxe de cada bloco de código, tornando-o mais fácil de ler e entender.
+
+
+
