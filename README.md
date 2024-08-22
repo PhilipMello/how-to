@@ -1,9 +1,17 @@
-# <p align="center">HOW-TO</p>
+# <p align="center">HOW-TO</p> 
 
 ![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)
 
-#### _Read this in [other languages](translations/Translations.md)._
-<kbd>[<img title="Português" alt="Português" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/br.svg" width="22">](translations/README.pt_br.md)</kbd>
+<div align="center">
+
+#### _Read this in [other languages](lang.md)._
+<kbd>[<img title="English" alt="English" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/us.svg" width="44">](README.md)</kbd>
+<kbd>[<img title="Português" alt="Português" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/pt.svg" width="44">](lang/README-PT.md)</kbd>
+<kbd>[<img title="Español" alt="Español" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/es.svg" width="44">](lang/README-ES.md)</kbd>
+<kbd>[<img title="Français" alt="Français" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/fr.svg" width="44">](lang/README-FR.md)</kbd>
+<kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@master/svg/it.svg" width="44">](lang/README-IT.md)</kbd>
+
+</div>
 
 ---
 ## Git
