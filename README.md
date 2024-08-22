@@ -47,6 +47,9 @@
 
 ---
 
+## WSL
+[How-to WSL](https://github.com/PhilipMello/how-to/tree/main/wsl "Learn WSL") 
+
 ### <p align="center">Contributors</p>
 <div align="center">
   <a href="https://github.com/PhilipMello/how-to/graphs/contributors">
