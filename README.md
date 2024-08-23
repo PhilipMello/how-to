@@ -41,6 +41,12 @@
 
 ----
 
+## REGEX
+
+[REGEX](https://github.com/PhilipMello/how-to/tree/main/regex "Learn REGEX") 
+
+---
+
 ## Docker
 
 [How-to Docker](https://github.com/PhilipMello/how-to/tree/main/docker "Learn Docker") 
