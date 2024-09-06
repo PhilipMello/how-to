@@ -89,10 +89,41 @@ yum info httpd
 
 ### Discovery package provider
 
-yum provides PACKAGE-NAME
+yum provides "PACKAGE-NAME"
+
 Examples: 
 ```bash
 yum provides ping
+```
+
+### List Package Group
+
+```bash
+yum group list
+```
+
+### To Install Package Group
+
+yum groupinstall "Package-Group-Name"
+
+Example:
+```bash
+yum groupinstall "Development Tools"
+```
+
+### To Remove Package Group
+
+yum group remove "Package-Group-Name"
+
+Example:
+```bash
+yum group remove "Development Tools"
+```
+
+### To list all services
+
+```bash
+systemctl list-unit-files
 ```
 
 
