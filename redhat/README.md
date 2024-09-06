@@ -28,3 +28,5 @@ type "exit" twice to finish the process,
 now the system will reboot.
 congrats your password has been reset successfully.
 
+![redhad-password-recovery](../media/github/redhat/recovery-root-password-redhat-enterprise-linux-9.4.gif)
+
