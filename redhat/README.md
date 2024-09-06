@@ -30,3 +30,69 @@ congrats your password has been reset successfully.
 
 ![redhad-password-recovery](../media/github/redhat/recovery-root-password-redhat-enterprise-linux-9.4.gif)
 
+---
+
+### Register your RHEL
+
+```bash
+subscription-manager register
+```
+
+### List REPOS enabled on Subscription
+
+```bash
+subscription-manager repos --list-enabled
+```
+
+### List available subscription
+
+```bash
+subscription-manager --available
+```
+
+### List Repositories
+
+```bash
+yum repolist
+```
+
+OR
+```bash
+subscription-manager repos --list
+```
+
+### To list REPO
+
+```bash
+subscription-manager repos --list
+```
+
+### To Enable REPO
+
+```bash
+subscription-manager repos --enable=rhel-9-for-x86_64-baseos-rpms 
+```
+
+### To Disable REPO
+
+```bash
+subscription-manager repos --disable=rhel-9-for-x86_64-appstream-rpms
+```
+
+### Get info about package
+
+yum info PACKAGE-NAME
+Examples: 
+```bash
+yum info httpd
+```
+
+### Discovery package provider
+
+yum provides PACKAGE-NAME
+Examples: 
+```bash
+yum provides ping
+```
+
+
