@@ -14,6 +14,11 @@
 </div>
 
 ---
+## Redhat
+
+[How-Redhat](https://github.com/PhilipMello/how-to/tree/main/redhat "Learn Redhat")
+
+---
 ## Git
 
 [How-To Git](https://github.com/PhilipMello/how-to/tree/main/git "Learn Git")
