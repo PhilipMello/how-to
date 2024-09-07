@@ -42,6 +42,7 @@ congrats your password has been reset successfully.
 
 ### Understading passwd file:
 
+USERS: /etc/passwd
 ```
 root:x:0:0:root:/root:/bin/bash
   ^  ^ ^ ^  ^     ^     ^ 
@@ -53,6 +54,23 @@ root:x:0:0:root:/root:/bin/bash
   |  | |_________________________________________________ USER ID
   |  |__________________________________________________________ PASSWORD IS STORED LOCAL
   |________________________________________________________________________ USER NAME
+  ```
+
+ID 0 to 999 is for system users
+The first user in the system starts with 1000
+
+GROUPS: /etc/group
+```
+root:x:0:root
+^    ^ ^ ^     
+|    | | |   
+|    | | |        
+|    | | |    
+|    | | |  
+|    | | |______________________________________ MEMBERS OF THE GROUP
+|    | |_________________________________________________ GROUP ID
+|    |__________________________________________________________  GROUP PASSWORD (DEPRECATED)
+|________________________________________________________________________ GROUP NAME
   ```
 
 ### To add user:
