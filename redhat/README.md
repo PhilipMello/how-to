@@ -59,6 +59,11 @@ root:x:0:0:root:/root:/bin/bash
 ID 0 to 999 is for system users
 The first user in the system starts with 1000
 
+Type of users:
+- Commun user
+- System user
+- Administrator user
+
 GROUPS: /etc/group
 ```
 root:x:0:root
@@ -73,16 +78,82 @@ root:x:0:root
 |________________________________________________________________________ GROUP NAME
   ```
 
+### Manager user logins
+
+```bash
+/etc/login.defs
+```
+
 ### To add user:
 
 ```bash
-useradd new-user
+useradd new-user-here
 ```
 
 ### To modify user:
 
 ```
-usermod
+usermod user-name-here
+```
+
+### To del user:
+
+```bash
+userdel user-name-here
+```
+
+### To add group:
+
+```bash
+groupadd new-group-name-here
+```
+
+### To modify group:
+
+```
+groupmod group-name-here
+```
+
+### To del group:
+
+```bash
+groupdel group-name-here
+```
+
+### Get user info:
+
+```bash
+id user-name-here
+```
+
+### Change user:
+
+```bash
+su user-name-here
+```
+
+### Scalate privilagies:
+
+```bash
+sudo
+```
+
+### Change user password:
+
+```bash
+passwd user-name-here
+```
+
+### User account policies (Expiration, Block, Date):
+
+```bash
+change
+```
+
+### Change group password:
+
+```bash
+gpasswd
 ```
 
 ---
