@@ -32,6 +32,42 @@ congrats your password has been reset successfully.
 
 ---
 
+# User managment
+
+### Path for users:
+
+```
+/etc/passwd
+```
+
+### Understading passwd file:
+
+```
+root:x:0:0:root:/root:/bin/bash
+  ^  ^ ^ ^  ^     ^     ^ 
+  |  | | |  |     |     |
+  |  | | |  |     |     |____ ACCESS
+  |  | | |  |     |_________________ USER HOME DIRECTORY  
+  |  | | |  |____________________________ COMMENT (CAN BE ANYTHING) - JUST A COMMENT
+  |  | | |______________________________________ GROUP ID
+  |  | |_________________________________________________ USER ID
+  |  |__________________________________________________________ PASSWORD IS STORED LOCAL
+  |________________________________________________________________________ USER NAME
+  ```
+
+### To add user:
+
+```bash
+useradd new-user
+```
+
+### To modify user:
+
+```
+usermod
+```
+
+---
 ### Root login Cockpit
 Root login is not enabled by default
 if you want to allow root login, comment or remove root user in: /etc/cockpit/disallowed-users
