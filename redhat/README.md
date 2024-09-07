@@ -32,6 +32,29 @@ congrats your password has been reset successfully.
 
 ---
 
+### Root login Cockpit
+Root login is not enabled by default
+if you want to allow root login, comment or remove root user in: /etc/cockpit/disallowed-users
+
+### Enable Cockpit service
+
+```bash
+sudo systemctl start cockpit.service
+```
+
+### Enable root SSH login
+By default root ssho login is disabled
+To enable, set "PermitRootLogin yes" in: etc/ssh/sshd_config
+After that restart the service:
+```bash
+systemctl restart sshd.service
+```
+
+### Enable cockpit in boot
+```bash
+systemctl enable cockpit.socket
+```
+
 ### Register your RHEL
 
 ```bash
