@@ -79,6 +79,22 @@ subscription-manager repos --enable=rhel-9-for-x86_64-baseos-rpms
 subscription-manager repos --disable=rhel-9-for-x86_64-appstream-rpms
 ```
 
+### Default Repo Path:
+
+```
+/etc/yum.repos.d
+```
+
+### To create REPO
+
+```
+[atomycloud]
+name= Atomy Cloud
+baseurl=file://repo/BaseOS
+enabled= 1
+gpgcheck= 0
+```
+
 ### Get info about package
 
 yum info PACKAGE-NAME
@@ -126,4 +142,66 @@ yum group remove "Development Tools"
 systemctl list-unit-files
 ```
 
+### Change GUI to CLI default
 
+```bash
+systemctl isolate multi-user.target
+```
+
+### Change CLI to GUI default
+
+```bash
+systemctl isolate graphical.target
+```
+
+### To put system in Recue mode
+
+```bash
+systemctl isolate rescue.target
+```
+
+### See History of YUM
+
+```bash
+yum history
+```
+
+### Retrieve info about package group
+
+```bash
+yum history info ID
+```
+
+### UNDO Package group
+
+```bash
+yum history undo ID
+```
+
+### To Disable Firewall
+```bash
+systemctl stop firewall.service
+setenforce 0
+getenforce
+```
+
+### To list all services
+
+```bash
+systemctl list-unit-files
+```
+
+### To set new hostname
+
+hostnamectl set-hostname NAME_HERE
+
+Example:
+```bash
+hostnamectl set-hostname yourdomain.com
+```
+
+### Hostname path name
+
+```bash
+/etc/hostname
+```
