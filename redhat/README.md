@@ -147,7 +147,7 @@ passwd user-name-here
 ### User account policies (Expiration, Block, Date):
 
 ```bash
-change
+chage
 ```
 
 ### Change group password:
