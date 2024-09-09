@@ -19,16 +19,12 @@
 [How-Redhat](https://github.com/PhilipMello/how-to/tree/main/redhat "Learn Redhat")
 
 ---
-## Git
-
-<img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/>
+## Git  <a href="/git"><img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/></a>
 
 [How-To Git](https://github.com/PhilipMello/how-to/tree/main/git "Learn Git")
 
 ---
-## GitHub Status
-
-<img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/>
+## GitHub Status  <a href="github"><img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/></a>
 
 [How-To Github](https://github.com/PhilipMello/how-to/tree/main/github "Learn Github")
 
@@ -38,9 +34,7 @@
 [How-To MarkDown](https://github.com/PhilipMello/how-to/tree/main/markdown "Learn MarkDown")
 
 ---
-## HTML
-
-<img src="https://github.com/PhilipMello/icons/blob/main/html5/html5-logo-02.svg" width="5%"/>
+## HTML  <a href="/html"><img src="https://github.com/PhilipMello/icons/blob/main/html5/html5-logo-02.svg" width="5%"/></a>
 
 [How-To HTML](https://github.com/PhilipMello/how-to/tree/main/html "Learn HTML")
 
@@ -58,9 +52,7 @@
 
 ---
 
-## Docker
-
-<img src="https://github.com/PhilipMello/icons/blob/main/docker/docker-logo-01.svg" width="5%"/>
+## Docker  <a href="/docker"><img src="https://github.com/PhilipMello/icons/blob/main/docker/docker-logo-01.svg" width="5%"/></a>
 
 [How-to Docker](https://github.com/PhilipMello/how-to/tree/main/docker "Learn Docker") 
 
