@@ -21,10 +21,14 @@
 ---
 ## Git
 
+<img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/>
+
 [How-To Git](https://github.com/PhilipMello/how-to/tree/main/git "Learn Git")
 
 ---
 ## GitHub Status
+
+<img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/>
 
 [How-To Github](https://github.com/PhilipMello/how-to/tree/main/github "Learn Github")
 
@@ -35,6 +39,8 @@
 
 ---
 ## HTML
+
+<img src="https://github.com/PhilipMello/icons/blob/main/html5/html5-logo-02.svg" width="5%"/>
 
 [How-To HTML](https://github.com/PhilipMello/how-to/tree/main/html "Learn HTML")
 
@@ -53,6 +59,8 @@
 ---
 
 ## Docker
+
+<img src="https://github.com/PhilipMello/icons/blob/main/docker/docker-logo-01.svg" width="5%"/>
 
 [How-to Docker](https://github.com/PhilipMello/how-to/tree/main/docker "Learn Docker") 
 
