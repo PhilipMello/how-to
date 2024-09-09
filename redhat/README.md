@@ -32,6 +32,35 @@ congrats your password has been reset successfully.
 
 ---
 
+# Permissions
+
+```
+U           G           O
+User        Group       Others
+
+rwx
+R=READ 
+W=Wrtite
+X=eXecute
+```
+
+### Special Permissions
+
+|NAME        | Meaning          |Value
+:----------:|:----------------:|:--------:
+|SUID        |Set User Id Bit   |4
+|SGUID       |Set Group Id Bit  |2
+|Sticky Bit  |Sticky Bit        |1
+
+Examples:
+
+|SUID             | SGUID            |Sticky
+:----------------:|:----------------:|:--------:
+|S|s              |S|s               |T|t
+|-rwsrx-rw-       |rwxrwSrwx         |rwxrwxrwt
+|chmod 4766 file  |chmod 2767 file   |chmod 1777 file
+
+---
 # User managment
 
 ### Path for users:
