@@ -39,6 +39,13 @@ wsl --install
 wsl --unregister Ubuntu-22.04
 ```
 
+### Install diffent versions
+```
+wsl --import TAG-NAME OS-IMAGE-FILE.tar
+
+Example: wsl --import  RockyLinux-9-Base RockyLinux-9-Base Rocky-9-Container-Base.latest.x86_64.tar
+```
+
 ---
 ### Upgrade version from WSL 1 to WSL 2
 The wsl --set-version command can be used to downgrade from WSL 2 to WSL 1 or to update previously installed Linux distributions from WSL 1 to WSL 2.
