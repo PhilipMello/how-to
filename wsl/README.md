@@ -53,6 +53,11 @@ The wsl --set-version command can be used to downgrade from WSL 2 to WSL 1 or to
 wsl --set-version
 ```
 
+### Shutdown WSL
+```
+wsl --shutdown
+```
+
 ## Time issue on WSL
 To fix time issue in WSL, Run:
 - Install ntpdate
