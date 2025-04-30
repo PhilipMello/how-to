@@ -13,53 +13,17 @@
 
 </div>
 
----
-## Redhat
+<div align="center">
 
-[How-Redhat](https://github.com/PhilipMello/how-to/tree/main/redhat "Learn Redhat")
+| ![Redhat](https://img.icons8.com/?size=100&id=h2fWCnoQXWPf&format=png&color=000000) | ![Git](https://img.icons8.com/?size=100&id=52539&format=png&color=000000) | ![Github](https://img.icons8.com/?size=100&id=118553&format=png&color=000000) | ![Markdown](https://img.icons8.com/?size=100&id=55494&format=png&color=000000) | ![HTML](https://img.icons8.com/?size=100&id=Q5FXgRZybr2A&format=png&color=000000) | ![CSS](https://img.icons8.com/?size=100&id=8Y4JscIL3dtp&format=png&color=000000) | ![Regex](https://img.icons8.com/?size=100&id=48250&format=png&color=000000) | ![Docker](https://img.icons8.com/?size=100&id=Wln8Z3PcXanx&format=png&color=000000) | ![WSL](https://img.icons8.com/?size=100&id=108792&format=png&color=000000) |
+| ------------------------------------------------------------ | ------------------------------------------------------------| ------------------------------------------------------------ | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------ |
+| [Redhat](https://github.com/PhilipMello/how-to/tree/main/redhat)                     | [Git](https://github.com/PhilipMello/how-to/tree/main/git)  | [Github](https://github.com/PhilipMello/how-to/tree/main/github)            | [Markdown](https://github.com/PhilipMello/how-to/tree/main/markdown)                   | [HTML](https://github.com/PhilipMello/how-to/tree/main/html)                     | [CSS](https://github.com/PhilipMello/how-to/tree/main/css)                   | [Regex](https://github.com/PhilipMello/how-to/tree/main/regex)               | [Docker](https://github.com/PhilipMello/how-to/tree/main/docker)              | [WSL](https://github.com/PhilipMello/how-to/tree/main/wsl)              |
 
----
-## Git  <a href="/git"><img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/></a>
 
-[How-To Git](https://github.com/PhilipMello/how-to/tree/main/git "Learn Git")
-
----
-## GitHub Status  <a href="github"><img src="https://raw.githubusercontent.com/PhilipMello/icons/main/github/github-logo-01.svg" width="5%"/></a>
-
-[How-To Github](https://github.com/PhilipMello/how-to/tree/main/github "Learn Github")
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer"/>
+</div>
 
 ---
-## MARKDOWN
-
-[How-To MarkDown](https://github.com/PhilipMello/how-to/tree/main/markdown "Learn MarkDown")
-
----
-## HTML  <a href="/html"><img src="https://github.com/PhilipMello/icons/blob/main/html5/html5-logo-02.svg" width="5%"/></a>
-
-[How-To HTML](https://github.com/PhilipMello/how-to/tree/main/html "Learn HTML")
-
----
-
-## CSS
-
-[How-To CSS](https://github.com/PhilipMello/how-to/tree/main/css "Learn HTML")
-
-----
-
-## REGEX
-
-[REGEX](https://github.com/PhilipMello/how-to/tree/main/regex "Learn REGEX") 
-
----
-
-## Docker  <a href="/docker"><img src="https://github.com/PhilipMello/icons/blob/main/docker/docker-logo-01.svg" width="5%"/></a>
-
-[How-to Docker](https://github.com/PhilipMello/how-to/tree/main/docker "Learn Docker") 
-
----
-
-## WSL
-[How-to WSL](https://github.com/PhilipMello/how-to/tree/main/wsl "Learn WSL") 
 
 ### <p align="center">Contributors</p>
 <div align="center">
