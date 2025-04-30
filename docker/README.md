@@ -108,3 +108,13 @@ docker container cp
 
 Example: docker container cp file.txt abcdocker889938:/usr/share
 ```
+
+### To enable Docker Metrics:
+[Collect Docker metrics with Prometheus](https://docs.docker.com/engine/daemon/prometheus/)
+- Paste the content below in: `/etc/docker/daemon.json`
+```bash
+{
+        "metrics-addr": "127.0.0.1:9393"
+}
+```
+
