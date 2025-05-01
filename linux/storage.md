@@ -64,3 +64,67 @@ Always back up important data before modifying partitions to avoid accidental da
 The cfdisk command is a powerful and simple-to-use partitioning tool for Linux users. It provides a straightforward interface for managing partitions, allowing users to create, delete, and resize partitions with ease.
 
 For more detailed partitioning tasks, you may need to use tools like parted or gparted.
+
+---
+
+# 🛑 `wipefs` - The `wipefs` command in Linux is used to wipe (erase) file system signatures from a device or partition.
+
+## Usage:
+```bash
+wipefs [options] <device>
+```
+- **<device>**: The disk or partition on which to remove the file system signatures (e.g., `/dev/sda1`).
+
+## Common Options:
+
+- `-a` or `--all`: Wipes all detected signatures (default if no signature type is specified).
+- `-f` or `--force`: Forces the wiping of file system signatures without prompting for confirmation.
+- `-n` or `--no-act`: Simulates the action without actually making changes (dry-run).
+- `-t <type>` or `--type <type>`: Specify the type of filesystem to wipe, such as `ext4`, `xfs`, `btrfs`, etc. You can wipe specific filesystem signatures instead of all.
+- `-l` or `--list`: Lists the detected file system signatures on the device without actually wiping anything.
+
+## Examples:
+1. Wipe all filesystem signatures from a device
+This command wipes all filesystem signatures (including partition tables) from the device /dev/sda.
+```bash
+sudo wipefs /dev/sda
+```
+
+## 2. Wipe a specific file system signature
+This command wipes only the ext4 file system signature from the device /dev/sda1.
+```bash
+sudo wipefs -t ext4 /dev/sda1
+```
+
+## 3. Force wipe all signatures
+This command wipes all detected file system signatures from the device /dev/sda, without any confirmation prompts.
+```bash
+sudo wipefs -f /dev/sda
+```
+
+## 4. Simulate the wipe operation (dry-run)
+This command will show you what will be wiped but won't actually perform any changes. It's useful for testing what would happen before running the actual command.
+```bash
+sudo wipefs -n /dev/sda
+```
+
+## 5. List filesystem signatures
+This command lists all detected filesystem signatures on the device /dev/sda without wiping anything.
+```bash
+sudo wipefs -l /dev/sda
+```
+
+## Why Use `wipefs`?
+
+- **Clean Disk Before Reformatting**: Before creating new filesystems or partitions, you can use `wipefs` to remove the old filesystem signatures.
+- **Erase File System Information**: If you're planning to sell or dispose of a disk and want to ensure that no filesystem information is left behind, `wipefs` can help you clear that.
+- **Fix Corrupted Filesystems**: Sometimes, corrupted filesystem signatures may prevent the system from recognizing the partition correctly. Running `wipefs` can help fix this.
+
+## Important Considerations:
+
+- **Does not wipe data**: It only removes the filesystem signatures and metadata; the actual data on the disk is still there. If you need to securely erase data, you will need other tools like `shred` or `dd`.
+- **Be cautious**: `wipefs` can remove partition tables and filesystems, rendering the partition unreadable until it's reformatted. Always double-check the device you are working with to avoid accidental data loss.
+
+---
+
+In summary, `wipefs` is a tool to remove file system signatures, making the disk appear unformatted or allowing you to prepare a disk for new partitions and filesystems.
