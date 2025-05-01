@@ -1,3 +1,13 @@
+<div align="center">
+
+|  ![User](https://img.icons8.com/?size=100&id=IerOpHeUt2OH&format=png&color=000000)  |  ![Permissions](https://img.icons8.com/?size=100&id=64991&format=png&color=000000)  | ![Storage](https://img.icons8.com/?size=100&id=oGn7OMK6KnEh&format=png&color=000000)  |
+| ------------------------------------------------------------ | ------------------------------------------------------------| ------------------------------------------------------------ |
+| [User](https://github.com/PhilipMello/how-to/tree/main/linux/user.md)  | [Permissions](https://github.com/PhilipMello/how-to/tree/main/permissions.md)  |  [Storage](https://github.com/PhilipMello/how-to/tree/main/linux/storage.md)  |
+
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer"/>
+</div>
+
 # Linux Commands Cheatsheet
 
 ## 🖥️ Basic Commands
