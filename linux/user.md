@@ -1,6 +1,20 @@
 # 🧑‍💻 User Account Management Commands
 This guide provides basic commands for managing user accounts on Linux.
 
+---
+
+## 👥 List Users
+To list all users:
+```bash
+cat /etc/passwd
+```
+
+## 🔐 List User Password:
+To list all user's password: (Cryptography by default)
+```bash
+sudo cat /etc/shadow
+```
+
 ## 🔒 Lock User Account
 To lock a user account, preventing the user from logging in:
 
