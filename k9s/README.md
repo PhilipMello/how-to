@@ -1,5 +1,5 @@
 
-# K9s Installation Guide for Ubuntu
+# [K9s Installation Guide for Ubuntu](https://k9scli.io/topics/install/)
 
 K9s is a terminal-based UI that simplifies the management of Kubernetes clusters. This guide provides three methods to install K9s on Ubuntu:
 
